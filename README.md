@@ -16,8 +16,8 @@ trajectory.
 ## Quick start
 
 ```bash
-git clone https://github.com/takakhoo/Gradient-Descent-Experiments.git
-cd Gradient-Descent-Experiments
+git clone https://github.com/takakhoo/gradient-descent-lab.git
+cd gradient-descent-lab
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
@@ -31,6 +31,11 @@ jupyter lab "Gradient Descent Exp.ipynb"
 Change one variable at a time: the initial point, step size, iteration budget,
 or objective. A useful extension is to compare fixed-step gradient descent with
 momentum, RMSProp, or an adaptive line search under identical stopping rules.
+
+## Verification
+
+The notebook was executed end to end on September 16, 2026. All optimization
+traces and plots regenerated without cell errors.
 
 ## Scope
 
